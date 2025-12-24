@@ -12,6 +12,20 @@ A lightweight **Automatic Differentiation (AD)** library built from scratch in P
     * Log Determinant (`np.linalg.slogdet`)
 * **Broadcasting Support:** Handles gradient shape matching automatically for broadcasted operations.
 
+## 📊 Visualization
+
+The engine dynamically builds a computational graph to track operations. Below is the graph for the expression $z = x \cdot y + x$.
+<br>
+
+<p align="center">
+  <img src="assets/autodiff_graph.png" alt="Computational Graph" width="50%">
+</p>
+<p align="center">
+  <em>Figure 1: Gradient accumulation in the backward pass (∂z/∂x = y + 1).</em>
+</p>
+
+<br>
+
 ## 🛠️ Installation
 
 1.  **Clone the repository**
