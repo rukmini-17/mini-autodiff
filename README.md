@@ -75,3 +75,6 @@ This implementation uses **Operator Overloading** to build a Directed Acyclic Gr
 1.  **Topological Sort:** The graph is traversed to ensure we process nodes in dependency order.
 2.  **Vector-Jacobian Product (VJP):** Gradients are propagated backward from the output to the inputs using defined VJPs for each operator.
 
+
+---
+*Completed as part of the coursework for COMPSCI 689: Machine Learning at the University of Massachusetts Amherst (Fall 2025).*
